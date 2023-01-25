@@ -6,6 +6,9 @@ public class Item {
     double unitPrice;
     int quantity;
     double qtyAmount;
+    
+    
+    
 	public int getItemId() {
 		return itemId;
 	}

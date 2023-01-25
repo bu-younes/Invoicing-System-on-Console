@@ -18,7 +18,8 @@ public class Test {
 		Scanner scanner = new Scanner(System.in);
 
         while(true) {
-            System.out.println("\nMenu:");
+            System.out.println("\nM"
+            		+ "enu:");
             System.out.println("1. Shop Settings");
             System.out.println("2. Manage Shop Items");
             System.out.println("3. Create New Invoice");
@@ -170,6 +171,9 @@ public class Test {
             switch (choice) {
                 case 1:
                     System.out.println("You selected Add Items");
+                    
+                    
+                    
                     break;
                 case 2:
                     System.out.println("You selected Delete Items");
